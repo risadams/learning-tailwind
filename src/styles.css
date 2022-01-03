@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {}
+
+@layer components {
+
+  .menu-button {
+    @apply
+      text-white
+      bg-emerald-700
+      p-3
+      m-3
+    ;
+  }
+
+}
