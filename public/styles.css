@@ -607,6 +607,22 @@ select {
   margin-right: 0.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -631,6 +647,10 @@ select {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -647,6 +667,10 @@ select {
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border-b-4 {
   border-bottom-width: 4px;
 }
@@ -659,6 +683,16 @@ select {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 250 229 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -676,18 +710,61 @@ select {
   padding-right: 0.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-semibold {
   font-weight: 600;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-emerald-500 {
+  --tw-text-opacity: 1;
+  color: rgb(16 185 129 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -713,8 +790,52 @@ select {
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .sm\:text-center {
+    text-align: center;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-left {
+    text-align: left;
   }
 }
