@@ -13,21 +13,31 @@
 
   <!-- Top Nav -->
   <nav class="bg-white shadow-lg">
-    <div class="px-4 max-w-6xl mx-auto">
+    <div class="max-w-6xl px-4 mx-auto">
       <div class="flex justify-between">
         <div class="flex space-x-7">
           <div>
-            <a class="flex items-center py-4 px-2" href="#">
-              <img class="h-8 w-8 mr-2" src="images/house.png" alt="Logo">
-              <span class="font-semibold text-gray-500 text-lg">Navigation Logo</span>
+            <a class="flex items-center px-2 py-4" href="#">
+              <img class="w-8 h-8 mr-2" src="images/house.png" alt="Logo">
+              <span class="text-lg font-semibold text-gray-500">Navigation Logo</span>
             </a>
           </div>
-          <div class="hidden md:flex space-x-1 items-center">
-            <a class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-600 transition duration-300 border-emerald-500 border-b-4" href="#">Home</a>
-            <a class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-600 transition duration-300" href="#">Link 1</a>
-            <a class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-600 transition duration-300" href="#">Link 2</a>
-            <a class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-600 transition duration-300" href="#">Link 3</a>
-            <a class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-600 transition duration-300" href="#">Link 4</a>
+          <div class="items-center hidden space-x-1 md:flex">
+            <a class="px-2 py-4 font-semibold text-gray-500 transition duration-300 border-b-4 hover:text-emerald-600 border-emerald-500"
+              href="#">Home
+            </a>
+            <a class="px-2 py-4 font-semibold text-gray-500 transition duration-300 hover:text-emerald-600"
+              href="#">Link 1
+            </a>
+            <a class="px-2 py-4 font-semibold text-gray-500 transition duration-300 hover:text-emerald-600"
+              href="#">Link 2
+            </a>
+            <a class="px-2 py-4 font-semibold text-gray-500 transition duration-300 hover:text-emerald-600"
+              href="#">Link 3
+            </a>
+            <a class="px-2 py-4 font-semibold text-gray-500 transition duration-300 hover:text-emerald-600"
+              href="#">Link 4
+            </a>
           </div>
         </div>
       </div>
@@ -35,27 +45,104 @@
   </nav>
 
   <!-- Hero Banner -->
-  <main class="mt-10 px-4 md:mt-16">
+  <main class="px-4 mt-10 md:mt-16">
     <div class="sm:text-center lg:text-left">
-      <h1 class="font-extrabold text-4xl sm:text-6xl tracking-tight">
+      <h1 class="text-4xl font-extrabold tracking-tight sm:text-6xl">
         <span class="block text-black">This is the</span>
         <span class="block text-emerald-500">Site header</span>
       </h1>
       <p class="mt-4 text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl md:mt-5">
         And here of course you have some content
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nihil, porro nesciunt culpa nam itaque odit facilis deleniti tenetur doloremque fugit mollitia libero. Dicta aperiam aliquid accusantium quia nobis tenetur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nihil, porro nesciunt culpa nam itaque odit
+        facilis deleniti tenetur doloremque fugit mollitia libero. Dicta aperiam aliquid accusantium quia nobis tenetur.
       </p>
 
-      <div class="flex mt-5 items-center justify-center space-x-7">
+      <div class="flex items-center justify-center mt-5 space-x-7">
         <div>
-          <a class="bg-emerald-700 text-white flex justify-center px-8 py-3 rounded-xl" href="#">button 1</a>
+          <a class="flex justify-center px-8 py-3 text-white bg-emerald-700 rounded-xl" href="#">button 1</a>
         </div>
         <div>
-          <a class="bg-emerald-100 text-black flex  justify-center px-8 py-3  rounded-xl" href="#">button 2</a>
+          <a class="flex justify-center px-8 py-3 text-black bg-emerald-100 rounded-xl" href="#">button 2</a>
         </div>
       </div>
     </div>
   </main>
+
+  <!-- Cards -->
+
+  <div class="flex justify-center p-10 mt-5">
+    <h2 class="mb-2 text-3xl text-gray-500">Some Cards</h2>
+  </div>
+
+  <div class="grid gap-2 p-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+
+    <div class="rounded shadow-lg">
+      <img class="w-full" src="images/home1.jpg" alt="A house.">
+      <div class="px-6 pt-4">
+        <h3 class="text-xl font-semibold text-gray-700">Card Title</h3>
+        <p class="text-base text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="px-6 pt-2">
+        <span class="text-lg text-emerald-500">$500,000</span>
+      </div>
+      <div class="px-6 mt-4">
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 1</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 2</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 3</span>
+      </div>
+      <div class="px-6 m-4">
+        <a class="flex justify-center py-3 text-white bg-emerald-500 rounded-xl" href="#">View More</a>
+      </div>
+    </div>
+
+    <div class="rounded shadow-lg">
+      <img class="w-full" src="images/home2.jpg" alt="A house.">
+      <div class="px-6 pt-4">
+        <h3 class="text-xl font-semibold text-gray-700">Card Title</h3>
+        <p class="text-base text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="px-6 pt-2">
+        <span class="text-lg text-emerald-500">$500,000</span>
+      </div>
+      <div class="px-6 mt-4">
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 1</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 2</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 3</span>
+      </div>
+      <div class="px-6 m-4">
+        <a class="flex justify-center py-3 text-white bg-emerald-500 rounded-xl" href="#">View More</a>
+      </div>
+    </div>
+
+    <div class="rounded shadow-lg">
+      <img class="w-full" src="images/home3.jpg" alt="A house.">
+      <div class="px-6 pt-4">
+        <h3 class="text-xl font-semibold text-gray-700">Card Title</h3>
+        <p class="text-base text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="px-6 pt-2">
+        <span class="text-lg text-emerald-500">$500,000</span>
+      </div>
+      <div class="px-6 mt-4">
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 1</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 2</span>
+        <span class="p-2 text-black bg-gray-400 rounded-lg span-x-4">Tag 3</span>
+      </div>
+      <div class="px-6 m-4">
+        <a class="flex justify-center py-3 text-white bg-emerald-500 rounded-xl" href="#">View More</a>
+      </div>
+    </div>
+
+  </div>
 
 </body>
 
